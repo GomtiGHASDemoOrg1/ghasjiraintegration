@@ -16,5 +16,5 @@ jobs:
           jira_user: '${{ secrets.JIRA_USER }}'
           jira_token: '${{ secrets.JIRA_TOKEN }}'
           jira_project: 'SGJ'
-          token: '${{ secrets.OCTODEMO_PAT }}'
+          github_token: '${{ secrets.OCTODEMO_PAT }}'
           sync_direction: 'gh2jira'
