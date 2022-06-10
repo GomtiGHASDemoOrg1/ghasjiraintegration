@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "hoek": "4.1.1",
-    "dummy-http-server": "1.0.1"
+    "@zebrajaeger/dummy-http-server": "^1.0.1",
+    "hoek": "4.1.1"
   }
 }
