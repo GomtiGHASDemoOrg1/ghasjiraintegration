@@ -1,0 +1,20 @@
+name: Compliance
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  compliance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Advance Security Compliance Action
+        uses: GeekMasher/advanced-security-compliance@main
+        with:
+          token: ${{ secrets.OCTODEMOBOT_SECURITY_AND_SOFTWARE_COMPOSITION_TOKEN }}
+          argvs: --debug
+          policy: GeekMasher/security-queries
+          policy-path: policies/high.yml
