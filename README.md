@@ -15,3 +15,5 @@ function endsWith(x, y) {
 
 ```
 STRIPE_SECRET_KEY = 'sk_live_abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789a'
+STRIPE_SECRET_KEY = 'sk_live_abcdeffhijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789a'
+
