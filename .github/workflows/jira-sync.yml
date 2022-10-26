@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Sync alerts to Jira issues
-        uses: dylan-rinker/ghas-jira-integration@dylan-rinker/add-dependabot-alerts
+        uses: github/ghas-jira-integration@v1.23
         with:
           jira_url: 'https://githubtraining.atlassian.net'
           jira_user: '${{ secrets.JIRA_USER }}'
